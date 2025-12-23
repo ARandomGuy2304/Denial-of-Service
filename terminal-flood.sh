@@ -6,6 +6,9 @@ else
 echo "Operation canceled."
 exit
 fi
+ulimit -n unlimited
+ulimit -u unlimited
+ulimit -s unlimited
 while true; do
 gnome-terminal -- bash -c "while true; do gnome-terminal; done"
 done
