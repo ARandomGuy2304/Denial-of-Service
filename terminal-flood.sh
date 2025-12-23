@@ -1,5 +1,5 @@
 #!/bin/bash
-read -p "Do you really want to run this script (it will execute a real DoS attack, which can crash your system)? (y/n)" ans
+read -p "Do you really want to run this script (it will execute a real DoS attack, which can crash your system)? (y/n) " ans
 if [[ "$ans" == "y" || "$ans" == "Y" ]]; then
 sleep 1
 else
